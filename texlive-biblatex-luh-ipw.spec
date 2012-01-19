@@ -1,12 +1,12 @@
-# revision 24512
+# revision 25093
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-luh-ipw
-# catalog-date 2011-11-05 09:34:11 +0100
+# catalog-date 2012-01-10 17:14:00 +0100
 # catalog-license lppl1.3
-# catalog-version 0.1
+# catalog-version 0.2
 Name:		texlive-biblatex-luh-ipw
-Version:	0.1
-Release:	2
+Version:	0.2
+Release:	1
 Summary:	Biblatex styles for social sciences
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-luh-ipw
@@ -40,6 +40,7 @@ Institute of Political Science). The bundle depends on biblatex
 %{_texmfdistdir}/tex/latex/biblatex-luh-ipw/bbx/standard-luh-ipw.bbx
 %{_texmfdistdir}/tex/latex/biblatex-luh-ipw/bbx/verbose-inote-luh-ipw.bbx
 %{_texmfdistdir}/tex/latex/biblatex-luh-ipw/cbx/authoryear-luh-ipw.cbx
+%{_texmfdistdir}/tex/latex/biblatex-luh-ipw/cbx/standard-luh-ipw.cbx
 %{_texmfdistdir}/tex/latex/biblatex-luh-ipw/cbx/verbose-inote-luh-ipw.cbx
 %{_texmfdistdir}/tex/latex/biblatex-luh-ipw/lbx/english-luh-ipw.lbx
 %{_texmfdistdir}/tex/latex/biblatex-luh-ipw/lbx/german-luh-ipw.lbx
