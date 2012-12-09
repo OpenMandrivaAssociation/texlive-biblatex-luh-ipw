@@ -60,3 +60,23 @@ Institute of Political Science). The bundle depends on biblatex
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
++ Revision: 770112
+- Update to latest upstream package
+
+* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
++ Revision: 762532
+- Update to latest upstream package
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-2
++ Revision: 749608
+- Rebuild to reduce used resources
+
+* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
++ Revision: 729630
+- texlive-biblatex-luh-ipw
+- texlive-biblatex-luh-ipw
+
