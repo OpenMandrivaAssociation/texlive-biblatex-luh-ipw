@@ -1,12 +1,12 @@
-# revision 25093
+# revision 32180
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-luh-ipw
-# catalog-date 2012-01-10 17:14:00 +0100
+# catalog-date 2013-11-18 20:45:12 +0100
 # catalog-license lppl1.3
-# catalog-version 0.2
+# catalog-version 0.3
 Name:		texlive-biblatex-luh-ipw
-Version:	0.2
-Release:	2
+Version:	0.3
+Release:	1
 Summary:	Biblatex styles for social sciences
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-luh-ipw
@@ -60,23 +60,3 @@ Institute of Political Science). The bundle depends on biblatex
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
-+ Revision: 770112
-- Update to latest upstream package
-
-* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
-+ Revision: 762532
-- Update to latest upstream package
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-2
-+ Revision: 749608
-- Rebuild to reduce used resources
-
-* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
-+ Revision: 729630
-- texlive-biblatex-luh-ipw
-- texlive-biblatex-luh-ipw
-
