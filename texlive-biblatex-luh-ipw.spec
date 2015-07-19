@@ -6,7 +6,7 @@
 # catalog-version 0.3
 Name:		texlive-biblatex-luh-ipw
 Version:	0.3
-Release:	8
+Release:	9
 Summary:	Biblatex styles for social sciences
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-luh-ipw
