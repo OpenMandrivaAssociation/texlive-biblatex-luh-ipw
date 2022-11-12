@@ -1,18 +1,12 @@
-# revision 32180
-# category Package
-# catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-luh-ipw
-# catalog-date 2013-11-18 20:45:12 +0100
-# catalog-license lppl1.3
-# catalog-version 0.3
 Name:		texlive-biblatex-luh-ipw
-Version:	0.3
-Release:	10
+Version:	32180
+Release:	1
 Summary:	Biblatex styles for social sciences
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-luh-ipw
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biblatex-luh-ipw.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biblatex-luh-ipw.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biblatex-luh-ipw.r32180.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biblatex-luh-ipw.doc.r32180.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -27,12 +21,12 @@ Institute of Political Science). The bundle depends on biblatex
 (version 1.1 at least) and cannot be used without it.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -53,7 +47,7 @@ Institute of Political Science). The bundle depends on biblatex
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
