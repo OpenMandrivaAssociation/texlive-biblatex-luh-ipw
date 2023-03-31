@@ -1,6 +1,6 @@
 Name:		texlive-biblatex-luh-ipw
 Version:	32180
-Release:	1
+Release:	2
 Summary:	Biblatex styles for social sciences
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-luh-ipw
